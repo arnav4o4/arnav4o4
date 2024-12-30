@@ -2,6 +2,10 @@
 
 ###
 
+<p align="left"></p>
+
+###
+
 <img align="right" height="180" src="https://i.pinimg.com/originals/dd/d8/ff/ddd8ff292a30b9ad856856aa920d1081.gif"  />
 
 ###
@@ -64,15 +68,14 @@
 <br clear="both">
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arnav4o4&hide_title=false&hide_rank=false&show_icons=false&include_all_commits=true&count_private=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=true&custom_title=Stats" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=arnav4o4&hide_title=true&hide_rank=false&show_icons=false&include_all_commits=true&count_private=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=true&custom_title=Stats" height="150" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=arnav4o4&locale=en&mode=daily&theme=rose_pine&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arnav4o4&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=rose_pine&hide_border=true&custom_title=Languages" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arnav4o4&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=rose_pine&hide_border=true" height="150" alt="languages graph"  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=arnav4o4&area=true&hide_border=true&hide_title=true&theme=tokyo-night" height="150" alt="activity-graph graph"  />
 </div>
 
 ###
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/arnav4o4/arnav4o4/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/arnav4o4/arnav4o4/main/snake.yml" alt="Snake animation" />
 
 ###
