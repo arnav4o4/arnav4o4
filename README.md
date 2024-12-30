@@ -76,6 +76,6 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/arnav4o4/arnav4o4/main/snake.yml" alt="Snake animation" />
+<img src="https://github.com/arnav4o4/arnav4o4/main/snake.yml" alt="Snake animation" />
 
 ###
