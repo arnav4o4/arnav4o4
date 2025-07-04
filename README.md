@@ -55,7 +55,7 @@
     <img src="https://img.shields.io/static/v1?message=Outlook&logo=microsoft-outlook&label=&color=0078D4&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="microsoft-outlook logo"  />
   </a>
   <a href="https://x.com/arnav4o4" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter X&logo=twitter&label=&color=001f3f&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Twitter logo"  />
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=001f3f&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Twitter logo"  />
   </a>
 </div>
 
