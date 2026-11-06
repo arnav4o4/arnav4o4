@@ -24,7 +24,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: |
+          pip install -r scripts/requirements.txt
+          pip install rembg opencv-python-headless pillow numpy
 
       - name: Scrape real contribution data (no auth needed)
         run: python scripts/fetch_contributions.py
