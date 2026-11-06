@@ -26,7 +26,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r scripts/requirements.txt
-          pip install rembg opencv-python-headless pillow numpy
+          pip install opencv-python-headless pillow numpy onnxruntime
+          pip install rembg
 
       - name: Scrape real contribution data (no auth needed)
         run: python scripts/fetch_contributions.py
