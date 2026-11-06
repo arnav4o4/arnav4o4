@@ -13,19 +13,28 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.SYNC_TOKEN }}
+          path: main_repo
+
+      - name: Checkout upstream template
+        uses: actions/checkout@v4
+        with:
+          repository: AVIVASHISHTA29/AVIVASHISHTA29
+          path: upstream_repo
 
       - name: Pull and Sync Files
         run: |
           git config --global user.name "arnav4o4"
           git config --global user.email "allenarnav2023@gmail.com"
           
-          git clone https://github.com upstream_repo
+          # Ensure destination directories exist inside your repo
+          mkdir -p main_repo/.github/workflows main_repo/scripts
           
-          mkdir -p .github/workflows scripts
-          cp -r upstream_repo/.github/workflows/* .github/workflows/
-          cp -r upstream_repo/scripts/* scripts/
+          # Safely copy the engine framework
+          cp -r upstream_repo/.github/workflows/* main_repo/.github/workflows/
+          cp -r upstream_repo/scripts/* main_repo/scripts/
           
-          rm -rf upstream_repo
+          # Move inside your repository folder to commit
+          cd main_repo
           
           git add .github/workflows/ scripts/
           git diff-index --quiet HEAD || git commit -m "Automated Sync: Pulled latest scripts/workflows from upstream template"
